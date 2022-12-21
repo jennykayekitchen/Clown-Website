@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+header {
+    margin: -1rem -1rem 1rem;
+    padding: 1%;
+    background: url(../img/balloons.jpg) center / cover no-repeat;
+    background-blend-mode: multiply;
+    color:white;
+    font-family: 'Ranchers', cursive;
+  }
+
+header, footer {
+    text-align:center;
+}
+
+.title {
+    letter-spacing:2px;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px black;
+}
+
+html {
+    font-size: 1.25em;
+}
+
+.intro, main {
+   font-family: 'Poppins', sans-serif;
+}
+

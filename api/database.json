@@ -1,0 +1,43 @@
+{
+  "clowns": [
+    {
+      "id": 1,
+      "name": "Buttons"
+    },
+    {
+      "id": 2,
+      "name": "Lollipop"
+    }
+  ],
+  "reservationRequests": [
+    {
+      "parentName": "Sam",
+      "parentPhone": "615-775-2815",
+      "childName": "Nicholas",
+      "reservationDate": "2023-02-09",
+      "reservationLength": "3",
+      "numAttending": "10",
+      "id": 1
+    }
+  ],
+  "bookings": [
+    {
+      "reservationId": 1,
+      "clownId": 1,
+      "date_created": 1671633152752,
+      "id": 1
+    },
+    {
+      "reservationId": 1,
+      "clownId": 1,
+      "date_created": 1671633252520,
+      "id": 2
+    },
+    {
+      "reservationId": 2,
+      "clownId": 1,
+      "date_created": 1671633255106,
+      "id": 3
+    }
+  ]
+}
